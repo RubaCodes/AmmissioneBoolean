@@ -1,0 +1,52 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+header{
+    text-align: center;
+    color: rgb(52, 223, 52);
+}
+nav{
+    background-color: rgb(52, 223, 52);
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.via::before{
+    content: ' \2192';
+}
+.Monopattino{
+    margin-left: 10%;
+    margin-right: 10%; 
+    color: white;
+}
+/* Content box del contenuto con background nero trasparente */
+#content-box{
+    background-color: rgba(0, 0, 0, 0.37);
+    margin: 5% 15% 5% 15%;
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/* Colorazione ChargeBar Monopattino */
+#Red{
+    height: 20px;   
+    border-radius: 5px;
+    margin-right: 60%;
+    background-color: red;
+}
+#Green{
+    height: 20px;   
+    border-radius: 5px;
+    margin-right: 10%;
+    background-color: rgb(52, 223, 52);
+}
+#Yellow{
+    height: 20px;   
+    border-radius: 5px;
+    margin-right: 30%;
+    background-color: yellow;
+}
